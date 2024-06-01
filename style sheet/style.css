@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box !important;
+}
+/*  goole fonts */
+@font-face {
+  font-family: narrow font;
+  src: url(../aseets/fonts/Archivo_Narrow/static/ArchivoNarrow-Regular.ttf);
+}
+/* global class */
+:root {
+  --text-color: #070707 !important;
+}
+/* --- navbar section--- */
+header{
+    padding: 10px !important;
+}
+.nav-item {
+  margin-right: 70px !important;
+}
+.nav-link {
+  font-family: narrow font !important;
+  color: var(--text-color);
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+.btn {
+  font-family: narrow font !important;
+  color: var(--text-color);
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  border-bottom: 0 solid #f2f4f5;
+}
+/* ---slider section--- */
+.carousel-item {
+  height: 90vh !important;
+}
+.carousel-caption {
+  top: 30% !important;
+  bottom: 0 !important;
+  left: 10% !important;
+  right: 0 !important ;
+  text-align: left !important;
+  width: 100% !important;
+}
+.carousel-caption h1,
+p {
+  color: white !important;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+}
+.btn-slider {
+  margin-top: 18px;
+  margin-left: -1px;
+  padding: 14px 37px 13px 38px;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+  color: #070707;
+  border-color: #fff;
+  font-family: narrow font !important;
+  border-radius: 5px !important;
+}
+.btn-slider:hover {
+  background-color: var(--text-color) !important;
+  color: white !important;
+}
+/* ---card section--- */
+.card_heading {
+  margin-top: 20px !important;
+}
+.card_heading h3 {
+  font-size: 20px !important;
+  color: var(--text-color) !important;
+  font-weight: 600 !important;
+
+}

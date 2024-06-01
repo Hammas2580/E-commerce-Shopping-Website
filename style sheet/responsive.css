@@ -1,0 +1,7 @@
+/* media for mobil screen */
+@media (max-width:576px){
+    .carousel-item img{
+        width: 100% !important;
+        height: 500px !important;
+    }
+}
