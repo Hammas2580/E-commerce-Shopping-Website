@@ -17,6 +17,13 @@
   .card {
     width: 100% !important;
   }
+  /* ---about section--- */
+  .about_contant{
+    margin: 7px !important;
+  }
+  .about_images img{
+    width: 100% !important;
+  }
 }
 /* ---for  576 to 767 screen */
 @media (min-width: 576px) and (max-width: 767px) {
