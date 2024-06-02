@@ -11,8 +11,8 @@
   --text-color: #070707 !important;
 }
 /* --- navbar section--- */
-header{
-    padding: 10px !important;
+header {
+  padding: 10px !important;
 }
 .nav-item {
   margin-right: 70px !important;
@@ -21,13 +21,14 @@ header{
   font-family: narrow font !important;
   color: var(--text-color);
   font-weight: 700 !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
 }
 .btn {
   font-family: narrow font !important;
   color: var(--text-color);
   font-weight: 700 !important;
   font-size: 18px !important;
+  text-transform: uppercase !important;
 }
 header {
   background-color: #fff;
@@ -48,11 +49,16 @@ header {
   text-align: left !important;
   width: 100% !important;
 }
-.carousel-caption h1,
-p {
+.carousel-caption p {
   color: white !important;
   text-transform: capitalize !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
+}
+.carousel-caption h1 {
+  color: white !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  font-size: 50px !important;
 }
 .btn-slider {
   margin-top: 18px;
@@ -78,5 +84,23 @@ p {
   font-size: 20px !important;
   color: var(--text-color) !important;
   font-weight: 600 !important;
-
+}
+.card {
+  border: none !important;
+}
+.card-body .card-text {
+  color: var(--text-color) !important;
+  font-size: 14px !important;
+  text-decoration: none !important;
+  font-weight: 400;
+}
+.card-body span {
+  font-family: narrow font !important ;
+  color: #070707 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.card-body del {
+  font-family: narrow font !important;
+  color: grey !important;
 }

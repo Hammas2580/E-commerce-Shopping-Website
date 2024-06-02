@@ -1,7 +1,16 @@
 /* media for mobil screen */
-@media (max-width:576px){
-    .carousel-item img{
-        width: 100% !important;
-        height: 500px !important;
-    }
+@media (max-width: 576px) {
+  .carousel-item img {
+    width: 100% !important;
+    height: 500px !important;
+  }
+  /* --card secttion */
+  .card_heading {
+    text-align: center !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .card {
+    width: 100% !important;
+  }
 }
