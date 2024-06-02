@@ -84,11 +84,12 @@ header {
 .card_heading h3 {
   font-size: 20px !important;
   color: var(--text-color) !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
 }
 .card {
   border: none !important;
 }
+
 .card-body .card-text {
   color: var(--text-color) !important;
   font-size: 14px !important;
@@ -106,7 +107,7 @@ header {
   color: grey !important;
 }
 /* ---card section--- */
-.about_images{
+.about_images {
   margin-top: 30px !important;
 }
 .about_contant {
