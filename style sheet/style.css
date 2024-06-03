@@ -12,7 +12,7 @@
 }
 /* --- navbar section--- */
 header {
-  padding: 10px !important;
+  padding: 0px !important;
 }
 .nav-item {
   margin-right: 70px !important;
@@ -21,14 +21,17 @@ header {
   font-family: narrow font !important;
   color: var(--text-color);
   font-weight: 700 !important;
-  font-size: 16px !important;
+  font-size: 14px !important;
 }
 .btn {
   font-family: narrow font !important;
   color: var(--text-color);
   font-weight: 700 !important;
-  font-size: 18px !important;
+  font-size: 14px !important;
   text-transform: uppercase !important;
+}
+.fa-magnifying-glass {
+  font-size: 14px !important;
 }
 header {
   background-color: #fff;
@@ -39,7 +42,7 @@ header {
 }
 /* ---slider section--- */
 .carousel-item {
-  height: 90vh !important;
+  height: 100vh !important;
   height: 100vh !important;
 }
 .carousel-caption {
@@ -78,8 +81,8 @@ header {
   color: white !important;
 }
 /* ---card section--- */
-.card_heading {
-  margin-top: px !important;
+.main-class{
+  padding-top: 10px !important;
 }
 .card_heading h3 {
   font-size: 20px !important;
@@ -144,4 +147,67 @@ header {
 .paragraph {
   font-size: 16px !important;
   color: var(--text-color) !important;
+}
+/* ---footer section--- */
+.footer_heading h6 {
+  font-family: narrow font !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+.list-items .fa-phone {
+  color: white !important;
+  margin-right: 10px !important;
+  font-size: 10px !important;
+}
+.list-items .fa-location-dot {
+  color: white !important;
+  margin-right: 10px !important;
+  font-size: 10px !important;
+}
+.list-items .fa-envelope {
+  color: white !important;
+  margin-right: 10px !important;
+  font-size: 10px !important;
+}
+.list-items .icon-color {
+  color: #bfbfbf !important;
+  margin-right: 50px !important;
+  font-size: 14px !important;
+}
+.footer_heading h6 {
+  color: #fff !important;
+}
+.main-footer li a {
+  text-decoration: none !important;
+  color: #bfbfbf !important;
+}
+.main-footer li {
+  margin-top: 20px !important;
+  font-size: 15px !important;
+}
+.list-items .fa-facebook-f {
+  color: #bfbfbf !important;
+  margin-right: 10px !important;
+}
+.list-items .fa-twitter {
+  color: #bfbfbf !important;
+  margin-right: 10px !important;
+}
+.list-items .fa-youtube {
+  color: #bfbfbf !important;
+  margin-right: 10px !important;
+}
+.list-items .fa-linkedin-in {
+  color: #bfbfbf !important;
+  margin-right: 10px !important;
+}
+.list-items .icon-color {
+  margin-right: 15px !important;
+  margin-right: 10px !important;
+}
+.list-unstyled li a:hover {
+  color: #fff !important;
+}
+.list-items .icon-color:hover {
+  color: #fff !important;
 }
