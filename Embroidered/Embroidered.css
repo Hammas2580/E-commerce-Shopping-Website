@@ -244,6 +244,10 @@ header {
   border-radius: 3px;
   font-weight: 600 !important;
 }
+.add_to_cart .btn-cart:hover{
+  background: var(--text--red) !important;
+  border: none !important;
+}
 .add_to_cart .fa-cart-shopping {
   margin-right: 5px !important;
 }

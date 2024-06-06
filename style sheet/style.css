@@ -89,8 +89,12 @@ header {
   color: var(--text-color) !important;
   font-weight: 700 !important;
 }
-.card {
+.card{
   border: none !important;
+}
+.best_seller{
+  border: none !important;
+  padding: 20px !important;
 }
 
 .card-body .card-text {
