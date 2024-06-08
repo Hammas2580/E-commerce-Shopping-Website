@@ -184,9 +184,9 @@
     line-height: 26px !important;
     border-radius: 50% !important;
     color: #ffff !important;
-    background: #000 !important;
+    background: whitesmoke !important;
     cursor: pointer;
-    color: var(--text-color) !important;
+    color: var(--text-grey) !important;
   }
   .product_medium_size .group2 {
     display: inline-block !important;
@@ -195,8 +195,9 @@
     text-align: center !important;
     line-height: 28px !important;
     border-radius: 50% !important;
-    background: #fff !important;
+    background: var(--text-color) !important;
     cursor: pointer;
+    color: whitesmoke !important;
   }
   .product_medium_size1 {
     padding-top: 20px !important;
@@ -209,9 +210,10 @@
     text-align: center !important;
     line-height: 28px !important;
     border-radius: 50% !important;
-    color: #fff !important;
     cursor: pointer;
-    border: 1px solid black !important;
+    background: var(--bg-color) !important;
+    border: 1px solid var(--text-color) !important;
+    
   }
   .product_medium_size1 .group4 {
     display: inline-block !important;

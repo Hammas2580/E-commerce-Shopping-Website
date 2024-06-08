@@ -211,7 +211,6 @@
     border-radius: 50% !important;
     color: #fff !important;
     cursor: pointer;
-    border: 1px solid black !important;
   }
   .product_medium_size1 .group4 {
     display: inline-block !important;
@@ -221,7 +220,7 @@
     border-radius: 50% !important;
     color: #fff !important;
     cursor: pointer;
-    background: var(--bg-sky) !important;
+    background: var(--text-grey) !important;
   }
   .input_group {
     padding-top: 5px !important;
@@ -392,3 +391,4 @@
   .list-items .icon-color:hover {
     color: #fff !important;
   }
+  

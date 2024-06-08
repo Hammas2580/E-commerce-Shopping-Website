@@ -19,6 +19,8 @@
     /* ---bg color--- */
     --bg-color: #f4f4f4 !important;
     --bg-sky: #5D9CEC;
+    --bg-green: #a1eb34;
+    --bg-pink: #fccacd;
   }
   /* --- navbar section--- */
   header {
@@ -211,7 +213,8 @@
     border-radius: 50% !important;
     color: #fff !important;
     cursor: pointer;
-    border: 1px solid black !important;
+    background: var(--bg-green) !important;
+    border: 1px solid var(--text-color) !important;
   }
   .product_medium_size1 .group4 {
     display: inline-block !important;
@@ -221,7 +224,7 @@
     border-radius: 50% !important;
     color: #fff !important;
     cursor: pointer;
-    background: var(--bg-sky) !important;
+    background: var(--bg-pink) !important;
   }
   .input_group {
     padding-top: 5px !important;

@@ -17,6 +17,9 @@
   .card {
     width: 100% !important;
   }
+  .main-class{
+    /* padding-top: 0px !important; */
+  }
   /* ---about section--- */
   .about_contant{
     margin: 7px !important;

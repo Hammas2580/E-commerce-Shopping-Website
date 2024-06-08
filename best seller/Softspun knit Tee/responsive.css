@@ -1,0 +1,60 @@
+/*  for mobile screen */
+@media (max-width: 576px) {
+    /* --card secttion */
+    .card_heading {
+      text-align: center !important;
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+    .card {
+      width: 100% !important;
+    }
+    /* --footer section-- */
+    .main-footer {
+      padding-top: 10px !important;
+      padding-left: 20px !important;
+    }
+    /*  slider section */
+    .cart_icon{
+      padding-top: 10px !important;
+    }
+    .cart_qunatity{
+      padding-top: 10px !important;
+  
+    }
+  }
+  /* for small devie  */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .main-class {
+      margin-top: 5px !important;
+    }
+    /* .card_heading {
+      text-align: center !important;
+      padding: 0px !important;
+    } */
+    .card {
+      padding: 10px !important;
+    }
+    /* --footer section-- */
+    .main-footer {
+      padding-top: 20px !important;
+    }
+  }
+  /* loptop device */
+  @media (max-width: 992px) {
+    .card_heading {
+      text-align: center !important;
+      margin: 10px !important;
+      padding: 5px !important;
+    }
+    .card {
+      padding: 0px !important;
+    }
+  }
+  /* large device */
+  @media (max-width: 1300px) {
+    /* ---for card section */
+    .card {
+      padding: 10px !important;
+    }
+  }

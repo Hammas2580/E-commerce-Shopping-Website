@@ -15,6 +15,7 @@
   /*  ---text color--- */
   --text-color: #070707 !important;
   --text-grey: #707070 !important;
+  --text--red: #f73629;
   /* ---bg color--- */
   --bg-color: #f4f4f4 !important;
 }
@@ -60,10 +61,17 @@ header {
   color: var(--text-color) !important;
   text-decoration: none !important;
 }
+.home:hover{
+  text-decoration: underline !important;
+}
 .navbar-list .Embroidered-yoke-sweatshirt {
   font-size: 14px !important;
   text-decoration: none !important;
   color: var(--text-color) !important;
+}
+.Embroidered-yoke-sweatshirt:hover{
+  text-decoration: underline !important;
+
 }
 /* ---images section--- */
 .card_slider {
@@ -244,7 +252,7 @@ header {
   border-radius: 3px;
   font-weight: 600 !important;
 }
-.add_to_cart .btn-cart:hover{
+.btn-cart:hover{
   background: var(--text--red) !important;
   border: none !important;
 }

@@ -19,6 +19,8 @@
     /* ---bg color--- */
     --bg-color: #f4f4f4 !important;
     --bg-sky: #5D9CEC;
+    --bg-green: #a1eb34;
+    --bg-pink: #fccacd;
   }
   /* --- navbar section--- */
   header {
@@ -204,14 +206,14 @@
   
   .product_medium_size1 .group3 {
     display: inline-block !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 20px !important;
+    height: 20px !important;
     text-align: center !important;
     line-height: 28px !important;
     border-radius: 50% !important;
     color: #fff !important;
     cursor: pointer;
-    border: 1px solid black !important;
+    background: whitesmoke !important;
   }
   .product_medium_size1 .group4 {
     display: inline-block !important;
@@ -221,7 +223,17 @@
     border-radius: 50% !important;
     color: #fff !important;
     cursor: pointer;
-    background: var(--bg-sky) !important;
+    background: var(--text-grey) !important;
+  }
+  .product_medium_size1 .group5{
+    display: inline-block !important;
+    width: 20px !important;
+    height: 20px !important;
+    text-align: center !important;
+    border-radius: 50% !important;
+    color: #fff !important;
+    cursor: pointer;
+    background: var(--bg-pink) !important;
   }
   .input_group {
     padding-top: 5px !important;
