@@ -6,7 +6,7 @@
   }
   .carousel-item {
     height: 100vh !important;
-    height: 100vh !important;
+    height: 200vh !important;
   }
   /* --card secttion */
   .card_heading {
@@ -71,6 +71,10 @@
     left: 10% !important;
     right: 0 !important ;
    
+  }
+  .carousel-item {
+    height: 100vh !important;
+    height: 80vh !important;
   }
   
 }
