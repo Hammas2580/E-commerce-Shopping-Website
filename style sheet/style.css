@@ -43,7 +43,7 @@ header {
 /* ---slider section--- */
 .carousel-item {
   height: 100vh !important;
-  height: 80vh !important;
+  height: 100vh !important;
 }
 .carousel-caption {
   top: 30% !important;
